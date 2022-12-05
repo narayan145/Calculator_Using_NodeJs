@@ -4,4 +4,5 @@ const percentageController = require('../controllers/percentageController');
 
 
 router.post("/", percentageController.getPercentage);
+router.post("number", percentageController.getNumber);
 module.exports = router;
